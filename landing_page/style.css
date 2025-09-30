@@ -1,0 +1,89 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  background-color: #1f2937;
+  padding: 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  background-color: #1f2937;
+  padding: 50px;
+}
+
+footer {
+  background-color: #1f2937;
+}
+
+.linkone,
+.linktwo,
+.linkthree {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.logo {
+  margin-right: auto;
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #3b82f6;
+}
+
+.singup {
+  margin-right: auto;
+}
+
+.main-text {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.sub-text {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.image-placeholder {
+  /* 1. Geef de placeholder afmetingen */
+  width: 300px;
+  height: 200px;
+
+  /* 2. Geef het een achtergrondkleur */
+  background-color: #e0e0e0; /* Een lichte grijstint */
+  border: 1px solid #cccccc;
+
+  /* 3. Gebruik Flexbox om de tekst te centreren */
+  display: flex;
+  justify-content: center; /* Horizontaal centreren */
+  align-items: center; /* Verticaal centreren */
+
+  /* 4. Styling voor de tekst zelf */
+  color: #888888;
+  font-family: sans-serif;
+  font-size: 16px;
+}

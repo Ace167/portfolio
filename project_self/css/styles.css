@@ -19,7 +19,7 @@ nav {
   align-items: center;
   gap: 20px;
   background-color: #4a91f5;
-  padding: 50px;
+  padding: 20px;
 }
 
 .logo {
@@ -28,9 +28,18 @@ nav {
   color: #f9faf8;
 }
 
+#logo {
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+#logo:hover {
+  transform: scale(1.1);
+}
+
 .links {
   display: flex;
-  gap: 25px;
+  gap: 10px;
 }
 
 a {
@@ -46,7 +55,38 @@ a:hover {
 
 .welcome-message {
   text-align: center;
-  margin-top: 100px;
-  font-size: 36px;
+  color: #000000;
+}
+
+button {
+  background-color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  background-color: #0044ff70;
+  color: #ffffff;
+}
+button:active {
+  background-color: #e0e0e0;
   color: #333333;
+}
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(74, 145, 245, 0.5);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #4a91f5;
+  color: #f9faf8;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
